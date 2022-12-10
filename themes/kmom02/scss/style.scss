@@ -1,0 +1,86 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'typography';
+@import 'blockquote';
+@import 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+}
+
+* {
+    color: $font-color;
+}
+
+.main {
+    margin: $main-margin;
+    width: $main-width;
+    flex: $main-flex; /* Gör att footern hamnar längst ner */
+}
+
+/* Header */
+
+.header {
+    background-image: $header-background;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+    margin: 10px auto;
+}
+
+.nav {
+    margin: 10px auto;
+}
+
+/* Footer */
+
+.footer {
+    background-image: $footer-background;
+    padding: $footer-padding;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.header, .footer {
+    flex: $header-footer-flex;
+}
+
+@media (max-width: 767px) {
+    body {
+        max-width: 100%;
+    }
+    
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
