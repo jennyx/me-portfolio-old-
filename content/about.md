@@ -21,7 +21,7 @@ SASS
 Sass är en preprocessor till CSS. Sass tolkar och kompilerar till CSS och minskar upprepningar av CSS. 
 
 Markdown
-------
+--------
 Markdown är ett märkspråk som är lättläst och lätt att skiva.
 
 Pico

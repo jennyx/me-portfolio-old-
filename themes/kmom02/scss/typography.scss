@@ -42,10 +42,15 @@ p {
 }
 /* rem är relaterat till root element (html) textstorlek. */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: $h-font-color; 
+    color: $h-font-color;
     font-family: 'Inter', sans-serif;
 }
 
