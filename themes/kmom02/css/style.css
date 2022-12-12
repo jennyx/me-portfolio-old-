@@ -351,7 +351,12 @@ p {
 }
 
 /* rem är relaterat till root element (html) textstorlek. */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   color: #b64074;
@@ -6544,7 +6549,8 @@ body {
 }
 
 /* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
   margin: 10px auto;
 }
@@ -6563,7 +6569,8 @@ body {
   font-size: 2rem;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
@@ -6571,7 +6578,8 @@ body {
   body {
     max-width: 100%;
   }
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
