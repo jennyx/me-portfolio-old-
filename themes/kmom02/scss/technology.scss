@@ -1,0 +1,16 @@
+.tech-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+@media screen and (max-width: 960px) {
+    .tech-box {
+        display: block;
+    }
+    
+    .side-box {
+        display: none;
+    }
+}

@@ -1,0 +1,68 @@
+.courses-page {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 2em;
+}
+
+.course-box {
+    padding: 2em;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgba(199, 169, 212);
+
+    h2 {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    a {
+        color: $h-font-color;
+        text-decoration: none;
+    }
+}
+
+/*.courses-box:hover {
+   box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.2);
+   background-color: rgba(199, 169, 212, 0.7);
+}
+*/
+
+.css {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+}
+
+.html {
+    grid-column: 2 / 4;
+    grid-row: 1 / 1;
+}
+
+.js {
+    grid-column: 1 / 3;
+    grid-row: 2 / 2;
+}
+
+.php {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.python {
+    grid-column: 1 / 4;
+    grid-row: 3 / 3;
+}
+
+.sqlite {
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+}
+
+.git {
+    grid-column: 2 / 4;
+    grid-row: 4 / 4;
+}

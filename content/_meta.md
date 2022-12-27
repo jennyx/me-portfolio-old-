@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/cloudmoon.png
+Logo: assets/img/moon.png
 Tagline: My portfolio.
 Social:
     - title: Länk till sidans GitHub repo.
