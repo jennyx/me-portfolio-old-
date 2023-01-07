@@ -1,12 +1,12 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
-@import 'variables';
+@import 'variables-dark';
 @import 'typography';
 @import 'blockquote';
 @import 'code';
 @import 'technologies';
 @import 'technology';
 @import 'report';
+@import 'base';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -76,8 +76,7 @@ body {
 
 .logo img {
     height: 10em;
-} 
-
+}
 
 @media (max-width: 767px) {
     body {
@@ -104,8 +103,4 @@ body {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 'top-left' 'top-right' 'bottom';
     }
-}
-
-.analysis-pic {
-    max-width: 100%;
 }
