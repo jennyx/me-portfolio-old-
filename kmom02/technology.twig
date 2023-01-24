@@ -1,0 +1,25 @@
+{% include 'incl/header.twig' %}
+
+<body> 
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="tech-box">
+            <div class="content-box">
+            {{ content }}
+            </div>
+            <div class="side-box">
+                <h4>Technologies</h4>
+                <a href="css"><p>CSS</p></a>
+                <a href="html"><p>HTML</p></a>
+                <a href="javascript"><p>JavaScript</p></a>
+                <a href="php"><p>PHP</p></a>
+                <a href="python"><p>Python</p></a>
+                <a href="git"><p>Git</p></a>
+                <a href="sqlite"><p>SQLite</p></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+{% include 'incl/footer.twig' %}

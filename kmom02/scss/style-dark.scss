@@ -1,0 +1,111 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'typography';
+@import 'blockquote';
+@import 'code';
+@import 'technologies';
+@import 'technology';
+@import 'report';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+}
+
+* {
+    color: $font-color;
+}
+
+.main {
+    margin: $main-margin;
+    width: $main-width;
+    flex: $main-flex; /* Gör att footern hamnar längst ner */
+    margin-bottom: 3em;
+}
+
+/* Header */
+
+.header {
+    background-image: $header-background;
+}
+
+.site-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 1em 1em 1em 0;
+    margin: 10px;
+}
+
+.nav {
+    margin: 10px auto;
+}
+
+/* Footer */
+
+.footer {
+    padding: $footer-padding;
+    border-top: 2px solid #4b4b4b;
+    ;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.header,
+.footer {
+    flex: $header-footer-flex;
+}
+
+.logo img {
+    height: 10em;
+} 
+
+
+@media (max-width: 767px) {
+    body {
+        max-width: 100%;
+    }
+    
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main {
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'top-left' 'top-right' 'bottom';
+    }
+}
+
+.analysis-pic {
+    max-width: 100%;
+}

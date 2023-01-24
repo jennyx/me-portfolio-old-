@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap');
+
+html {
+    font-size: 100%; 
+}
+/* 100% teckenstorlek = den storlek som är färinställd på webbsidan */
+
+body {
+    line-height: $base-line-height;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: $magic-number * 2;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+    font-family: 'Playfair Display', serif;
+}
+/* em här blir då 1.1 av vad som är satt i main, tex om font-size i main är 32px, blir teckenstorleken här 1.1 av 32px */
+
+.title * {
+    color: #fff;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+}
+/* rem är relaterat till root element (html) textstorlek. */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    color: $h-font-color;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+/*Skriver inte över inställningarna i webbläsaren bara förstorar texten */

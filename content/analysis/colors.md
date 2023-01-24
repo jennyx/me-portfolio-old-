@@ -18,8 +18,8 @@ Resultat
 -----------------------
 
 ### Zalando
-<img class="analysis-pic" src="%assets_url%/img/zalando.png" alt="screenshot of zalando"></img>
-![screenshot of zalando](%assets_url%/img/zalando.png)
+<!-- <img class="analysis-pic" src="%assets_url%/img/zalando.png" alt="screenshot of zalando"></img> -->
+![screenshot of zalando](%assets_url%/img/zalando.png) {.analysis-pic}
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
             <td style="height: 50px; width: 50px; background-color: #d2451e">
@@ -41,7 +41,7 @@ Zalando använder sig av en färgpalett som ger en lugn och kreativ känsla. Jag
 
 ### Boozt
 <!-- <img class="analysis-pic" src="%assets_url%/img/boozt.png" alt="screenshot of boozt"></img> -->
-![screenshot of boozt](%assets_url%/img/boozt.png)
+![screenshot of boozt](%assets_url%/img/boozt.png) {.analysis-pic}
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
             <td style="height: 50px; width: 50px; background-color: #d90225">
@@ -60,11 +60,11 @@ Zalando använder sig av en färgpalett som ger en lugn och kreativ känsla. Jag
             <td style="height: 50px; width: 50px;">#212121</td>
         </tr>
     </table>
-Intrycket jag fick av webbplatsen Boozt var enkel, stilren och även en elegant känsla. Sidan använder ett monokromt färgschema av svart, vit och grå tillsammans med en sparsamt använd röd accentfärg #d90225. Sans serif typsnitt dominerade sidan. Jag anser att Boozt lyckades med profilen de strävar efter med deras av, för det ger en stilren webbplats.
+Intrycket jag fick av webbplatsen Boozt var enkel, stilren och även en elegant känsla. Sidan använder ett monokromt färgschema av svart, vit och grå tillsammans med en sparsamt använd röd accentfärg #d90225. Sans serif typsnitt dominerade sidan. Jag anser att Boozt lyckades med profilen de strävar efter med deras av, för det ger en stilren webbplats. 
 
 ### ZARA
 <!-- <img class="analysis-pic" src="%assets_url%/img/zara.png" alt="screenshot of zara"></img> -->
-![screenshot of zara](%assets_url%/img/zara.png)
+![screenshot of zara](%assets_url%/img/zara.png) {.analysis-pic}
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
             <td style="height: 50px; width: 50px; background-color: #f4e623">
